@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contact</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel='stylesheet' type='text/css' media='screen' href='../Assignment 01 - build static website/style/contact.css'>
+</head>
+<body>
+    <header>
+        <h3 class="logo">ResearchM4</h3>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="../Assignment 01 - build static website/index.html">Home</a></li>
+                <li><a href="../Assignment 01 - build static website/services.html">Services</a></li>
+                <li><a href="../Assignment 01 - build static website/about.html">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form action="">
+                    <h2>Contact Us</h2>
+                    <p>You will hear from us at the earliest!</p>
+                    <div class="inputbox">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <input id="username" required>
+                        <label for="username">Username</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" id="email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" placeholder="Any queries or message.">
+                    </div>
+                    <button onclick="send()" class="send">SEND MESSAGE</button>
+                    <div class="contact">
+                        <p>You can also contact us at 181-1711-322</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <hr class="line">
+        <footer>
+            <p class="footer_text">Explore the research we've done for our great clients.</p><br>
+            <a class="view_now" href="#">View now.</a>
+        </footer>
+    <script src="../Assignment 01 - build static website/js/contact.js"></script>
+</body>
+</html>
